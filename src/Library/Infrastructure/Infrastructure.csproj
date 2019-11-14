@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <Import Project="..\..\..\build\module.build.targets" />
+
+  <ItemGroup>
+    <PackageReference Include="NetModular.Module.Admin.Domain" Version="1.5.0" />
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+</Project>
